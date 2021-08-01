@@ -13,6 +13,7 @@
 		844409CD26B6C700008FEC02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844409CB26B6C700008FEC02 /* Main.storyboard */; };
 		844409CF26B6C703008FEC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844409CE26B6C703008FEC02 /* Assets.xcassets */; };
 		844409D226B6C703008FEC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844409D026B6C703008FEC02 /* LaunchScreen.storyboard */; };
+		844409DA26B6CC55008FEC02 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844409D926B6CC55008FEC02 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		844409CE26B6C703008FEC02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		844409D126B6C703008FEC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		844409D326B6C703008FEC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844409D926B6CC55008FEC02 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				844409CE26B6C703008FEC02 /* Assets.xcassets */,
 				844409D026B6C703008FEC02 /* LaunchScreen.storyboard */,
 				844409D326B6C703008FEC02 /* Info.plist */,
+				844409D926B6CC55008FEC02 /* CustomButton.swift */,
 			);
 			path = RoundButton;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844409DA26B6CC55008FEC02 /* CustomButton.swift in Sources */,
 				844409CA26B6C700008FEC02 /* ViewController.swift in Sources */,
 				844409C626B6C700008FEC02 /* AppDelegate.swift in Sources */,
 				844409C826B6C700008FEC02 /* SceneDelegate.swift in Sources */,
